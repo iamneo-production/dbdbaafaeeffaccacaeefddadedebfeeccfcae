@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-18T13:31:09 UTC" name="Surefire suite" finished-at="2023-08-18T13:31:44 UTC" duration-ms="35320">
+  <suite started-at="2023-08-18T13:40:02 UTC" name="Surefire suite" finished-at="2023-08-18T13:40:39 UTC" duration-ms="36771">
     <groups>
     </groups>
-    <test started-at="2023-08-18T13:31:09 UTC" name="Surefire test" finished-at="2023-08-18T13:31:44 UTC" duration-ms="35320">
+    <test started-at="2023-08-18T13:40:02 UTC" name="Surefire test" finished-at="2023-08-18T13:40:39 UTC" duration-ms="36771">
       <class name="testcases.Testcase1">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:31:09 UTC" name="beforeMethod" finished-at="2023-08-18T13:31:14 UTC" duration-ms="4050" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:40:03 UTC" name="beforeMethod" finished-at="2023-08-18T13:40:07 UTC" duration-ms="4171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="addLowCostGiftCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:31:14 UTC" name="addLowCostGiftCard" data-provider="testData" finished-at="2023-08-18T13:31:18 UTC" duration-ms="4532" status="PASS">
+        <test-method signature="addLowCostGiftCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:40:07 UTC" name="addLowCostGiftCard" data-provider="testData" finished-at="2023-08-18T13:40:13 UTC" duration-ms="5752" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,15 +62,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addLowCostGiftCard -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:31:18 UTC" name="afterMethod" finished-at="2023-08-18T13:31:19 UTC" duration-ms="480" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:40:13 UTC" name="afterMethod" finished-at="2023-08-18T13:40:14 UTC" duration-ms="581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:31:19 UTC" name="beforeMethod" finished-at="2023-08-18T13:31:21 UTC" duration-ms="2702" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:40:14 UTC" name="beforeMethod" finished-at="2023-08-18T13:40:16 UTC" duration-ms="2354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TestCheckButton(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:31:21 UTC" name="TestCheckButton" data-provider="testData" finished-at="2023-08-18T13:31:26 UTC" duration-ms="5005" status="PASS">
+        <test-method signature="TestCheckButton(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:40:16 UTC" name="TestCheckButton" data-provider="testData" finished-at="2023-08-18T13:40:21 UTC" duration-ms="5140" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -121,15 +121,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCheckButton -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:31:26 UTC" name="afterMethod" finished-at="2023-08-18T13:31:27 UTC" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:40:21 UTC" name="afterMethod" finished-at="2023-08-18T13:40:21 UTC" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:31:27 UTC" name="beforeMethod" finished-at="2023-08-18T13:31:29 UTC" duration-ms="2271" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:40:21 UTC" name="beforeMethod" finished-at="2023-08-18T13:40:24 UTC" duration-ms="2477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TestCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:31:29 UTC" name="TestCheckout" data-provider="testData" finished-at="2023-08-18T13:31:39 UTC" duration-ms="10412" status="PASS">
+        <test-method signature="TestCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:40:24 UTC" name="TestCheckout" data-provider="testData" finished-at="2023-08-18T13:40:34 UTC" duration-ms="10163" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -180,15 +180,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCheckout -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:31:39 UTC" name="afterMethod" finished-at="2023-08-18T13:31:39 UTC" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:40:34 UTC" name="afterMethod" finished-at="2023-08-18T13:40:34 UTC" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:31:39 UTC" name="beforeMethod" finished-at="2023-08-18T13:31:42 UTC" duration-ms="2433" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:40:34 UTC" name="beforeMethod" finished-at="2023-08-18T13:40:37 UTC" duration-ms="2546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Booksearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:31:42 UTC" name="Booksearch" data-provider="testData" finished-at="2023-08-18T13:31:44 UTC" duration-ms="1877" status="PASS">
+        <test-method signature="Booksearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:40:37 UTC" name="Booksearch" data-provider="testData" finished-at="2023-08-18T13:40:39 UTC" duration-ms="1860" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -239,7 +239,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Booksearch -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:31:44 UTC" name="afterMethod" finished-at="2023-08-18T13:31:44 UTC" duration-ms="125" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@1ed4ae0f]" started-at="2023-08-18T13:40:39 UTC" name="afterMethod" finished-at="2023-08-18T13:40:39 UTC" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
