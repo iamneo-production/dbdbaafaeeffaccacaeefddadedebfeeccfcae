@@ -73,7 +73,7 @@ public class Screenshot {
         }
 
         File srcScreenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        String destinationScreenshotPath = screenshotsDirectory + screenshotName + "_" + timestamp + ".png";
+        String destinationScreenshotPath = "/Project"+screenshotsDirectory + screenshotName + "_" + timestamp + ".png";
 
         try {
             // Copy the screenshot file using Files.copy
