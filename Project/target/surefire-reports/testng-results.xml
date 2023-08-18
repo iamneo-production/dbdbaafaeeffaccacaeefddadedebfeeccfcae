@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-18T06:07:37 UTC" name="Surefire suite" finished-at="2023-08-18T06:08:19 UTC" duration-ms="42200">
+  <suite started-at="2023-08-18T09:23:33 UTC" name="Surefire suite" finished-at="2023-08-18T09:24:23 UTC" duration-ms="50024">
     <groups>
     </groups>
-    <test started-at="2023-08-18T06:07:37 UTC" name="Surefire test" finished-at="2023-08-18T06:08:19 UTC" duration-ms="42200">
+    <test started-at="2023-08-18T09:23:33 UTC" name="Surefire test" finished-at="2023-08-18T09:24:23 UTC" duration-ms="50024">
       <class name="testcases.Testcase1">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T06:07:37 UTC" name="beforeMethod" finished-at="2023-08-18T06:07:41 UTC" duration-ms="3644" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T09:23:33 UTC" name="beforeMethod" finished-at="2023-08-18T09:23:37 UTC" duration-ms="3961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TestTodaysDeal()[pri:1, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T06:07:41 UTC" name="TestTodaysDeal" finished-at="2023-08-18T06:07:47 UTC" duration-ms="5891" status="PASS">
+        <test-method signature="TestTodaysDeal()[pri:1, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T09:23:37 UTC" name="TestTodaysDeal" finished-at="2023-08-18T09:23:47 UTC" duration-ms="10711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTodaysDeal -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T06:07:47 UTC" name="afterMethod" finished-at="2023-08-18T06:07:47 UTC" duration-ms="538" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T09:23:47 UTC" name="afterMethod" finished-at="2023-08-18T09:23:48 UTC" duration-ms="549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T06:07:47 UTC" name="beforeMethod" finished-at="2023-08-18T06:07:49 UTC" duration-ms="1875" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T09:23:48 UTC" name="beforeMethod" finished-at="2023-08-18T09:23:50 UTC" duration-ms="2103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TestProductClick()[pri:2, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T06:07:49 UTC" name="TestProductClick" finished-at="2023-08-18T06:07:59 UTC" duration-ms="9248" status="PASS">
+        <test-method signature="TestProductClick()[pri:2, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T09:23:50 UTC" name="TestProductClick" finished-at="2023-08-18T09:24:00 UTC" duration-ms="10247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestProductClick -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T06:07:59 UTC" name="afterMethod" finished-at="2023-08-18T06:07:59 UTC" duration-ms="281" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T09:24:00 UTC" name="afterMethod" finished-at="2023-08-18T09:24:00 UTC" duration-ms="241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T06:07:59 UTC" name="beforeMethod" finished-at="2023-08-18T06:08:01 UTC" duration-ms="1858" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T09:24:00 UTC" name="beforeMethod" finished-at="2023-08-18T09:24:02 UTC" duration-ms="1877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="AddCartTest()[pri:3, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T06:08:01 UTC" name="AddCartTest" finished-at="2023-08-18T06:08:19 UTC" duration-ms="18607" status="PASS">
+        <test-method signature="AddCartTest()[pri:3, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T09:24:02 UTC" name="AddCartTest" finished-at="2023-08-18T09:24:22 UTC" duration-ms="20021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCartTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T06:08:19 UTC" name="afterMethod" finished-at="2023-08-18T06:08:19 UTC" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.Testcase1@470734c3]" started-at="2023-08-18T09:24:22 UTC" name="afterMethod" finished-at="2023-08-18T09:24:23 UTC" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

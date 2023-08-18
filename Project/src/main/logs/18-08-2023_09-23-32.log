@@ -1,2 +1,4 @@
 Aug 18, 2023 9:23:37 AM testcases.Testcase1 TestTodaysDeal
 INFO: Browser launched
+Aug 18, 2023 9:23:48 AM testcases.Testcase1 afterMethod
+INFO: Browser closed
