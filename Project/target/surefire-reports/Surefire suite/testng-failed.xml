@@ -6,7 +6,9 @@
       <class name="testcases.Testcase1">
         <methods>
           <include name="TestCheckButton"/>
+          <include name="afterMethod"/>
           <include name="addLowCostGiftCard"/>
+          <include name="Booksearch"/>
           <include name="beforeMethod"/>
           <include name="TestCheckout"/>
         </methods>
