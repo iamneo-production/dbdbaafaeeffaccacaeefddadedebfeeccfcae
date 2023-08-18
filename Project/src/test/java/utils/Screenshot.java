@@ -69,11 +69,11 @@ public class Screenshot {
         // Create the screenshots directory if it doesn't exist
         File directory = new File(screenshotsDirectory);
         if (!directory.exists()) {
-            directory.mkdirs();x
+            directory.mkdirs();
         }
 
         File srcScreenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        String destinationScreenshotPath = "/Project"+screenshotsDirectory + screenshotName + "_" + timestamp + ".png";
+        String destinationScreenshotPath = "/Project/"+screenshotsDirectory + screenshotName + "_" + timestamp + ".png";
 
         try {
             // Copy the screenshot file using Files.copy

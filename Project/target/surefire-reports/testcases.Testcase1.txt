@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: testcases.Testcase1
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 44.123 s <<< FAILURE! - in testcases.Testcase1
-Booksearch(testcases.Testcase1)  Time elapsed: 1.991 s  <<< FAILURE!
-java.lang.Error: 
-Unresolved compilation problems: 
-	Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
-	Syntax error, insert ";" to complete LocalVariableDeclarationStatement
-	x cannot be resolved
-
-	at testcases.Testcase1.Booksearch(Testcase1.java:255)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.386 s - in testcases.Testcase1
