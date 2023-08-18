@@ -65,7 +65,7 @@ public class Screenshot {
         String timestamp = dateFormat.format(new Date());
 
         // Define the screenshots directory path
-        String screenshotsDirectory = "src/main/Screenshot/";
+        String screenshotsDirectory = "Project/src/main/Screenshot/";
 
         // Create the screenshots directory if it doesn't exist
         File directory = new File(screenshotsDirectory);
