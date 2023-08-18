@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: testcases.Testcase1
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.109 s - in testcases.Testcase1
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 10.982 s <<< FAILURE! - in testcases.Testcase1
+addLowCostGiftCard(testcases.Testcase1)  Time elapsed: 2.323 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+[public void testcases.Testcase1.addLowCostGiftCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: addLowCostGiftCard([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4, java.lang.String arg5, java.lang.String arg6, java.lang.String arg7])
+Arguments: [(java.lang.String) Alice,(java.lang.String) demo@gmail.com,(java.lang.String) BOB,(java.lang.String) demo1@gmail.com,(java.lang.String) Ny city,(java.lang.String) NY city,(java.lang.String) 123456,(java.lang.String) 2242423,(java.lang.String) book]
+
+TestCheckButton(testcases.Testcase1)  Time elapsed: 2.398 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+[public void testcases.Testcase1.TestCheckButton(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: TestCheckButton([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4, java.lang.String arg5, java.lang.String arg6, java.lang.String arg7])
+Arguments: [(java.lang.String) Alice,(java.lang.String) demo@gmail.com,(java.lang.String) BOB,(java.lang.String) demo1@gmail.com,(java.lang.String) Ny city,(java.lang.String) NY city,(java.lang.String) 123456,(java.lang.String) 2242423,(java.lang.String) book]
+
+TestCheckout(testcases.Testcase1)  Time elapsed: 2.479 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+[public void testcases.Testcase1.TestCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: TestCheckout([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4, java.lang.String arg5, java.lang.String arg6, java.lang.String arg7])
+Arguments: [(java.lang.String) Alice,(java.lang.String) demo@gmail.com,(java.lang.String) BOB,(java.lang.String) demo1@gmail.com,(java.lang.String) Ny city,(java.lang.String) NY city,(java.lang.String) 123456,(java.lang.String) 2242423,(java.lang.String) book]
+

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.Testcase1" class="method navigator-link" hash-for-method="TestCheckButton">TestCheckButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.Testcase1" class="method navigator-link" hash-for-method="TestCheckout">TestCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.Testcase1" class="method navigator-link" hash-for-method="addLowCostGiftCard">addLowCostGiftCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +127,7 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.Testcase1" class="method navigator-link" hash-for-method="TestTodaysDeal">TestTodaysDeal</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.Testcase1" class="method navigator-link" hash-for-method="Booksearch(Alice, demo@gmail.com, BOB, demo1@gmail.com, Ny city, NY city, 123456, 2242423, book)">Booksearch(Alice, demo@gmail.com, BOB, demo1@gmail.com, Ny city, NY city, 123456, 2242423, book)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -118,6 +142,59 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.Testcase1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCheckButton">
+                  </a> <!-- TestCheckButton -->
+                  <span class="method-name">TestCheckButton</span>
+                  <div class="stack-trace">org.testng.internal.reflect.MethodMatcherException: 
+[public void testcases.Testcase1.TestCheckButton(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: TestCheckButton([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4, java.lang.String arg5, java.lang.String arg6, java.lang.String arg7])
+Arguments: [(java.lang.String) Alice,(java.lang.String) demo@gmail.com,(java.lang.String) BOB,(java.lang.String) demo1@gmail.com,(java.lang.String) Ny city,(java.lang.String) NY city,(java.lang.String) 123456,(java.lang.String) 2242423,(java.lang.String) book]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCheckout">
+                  </a> <!-- TestCheckout -->
+                  <span class="method-name">TestCheckout</span>
+                  <div class="stack-trace">org.testng.internal.reflect.MethodMatcherException: 
+[public void testcases.Testcase1.TestCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: TestCheckout([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4, java.lang.String arg5, java.lang.String arg6, java.lang.String arg7])
+Arguments: [(java.lang.String) Alice,(java.lang.String) demo@gmail.com,(java.lang.String) BOB,(java.lang.String) demo1@gmail.com,(java.lang.String) Ny city,(java.lang.String) NY city,(java.lang.String) 123456,(java.lang.String) 2242423,(java.lang.String) book]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addLowCostGiftCard">
+                  </a> <!-- addLowCostGiftCard -->
+                  <span class="method-name">addLowCostGiftCard</span>
+                  <div class="stack-trace">org.testng.internal.reflect.MethodMatcherException: 
+[public void testcases.Testcase1.addLowCostGiftCard(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.io.IOException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: addLowCostGiftCard([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4, java.lang.String arg5, java.lang.String arg6, java.lang.String arg7])
+Arguments: [(java.lang.String) Alice,(java.lang.String) demo@gmail.com,(java.lang.String) BOB,(java.lang.String) demo1@gmail.com,(java.lang.String) Ny city,(java.lang.String) NY city,(java.lang.String) 123456,(java.lang.String) 2242423,(java.lang.String) book]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -126,9 +203,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TestTodaysDeal">
-                  </a> <!-- TestTodaysDeal -->
-                  <span class="method-name">TestTodaysDeal</span>
+                  <a name="Booksearch(Alice, demo@gmail.com, BOB, demo1@gmail.com, Ny city, NY city, 123456, 2242423, book)">
+                  </a> <!-- Booksearch(Alice, demo@gmail.com, BOB, demo1@gmail.com, Ny city, NY city, 123456, 2242423, book) -->
+                  <span class="method-name">Booksearch</span>
+                  <span class="parameters">(Alice,demo@gmail.com,BOB,demo1@gmail.com,Ny city,NY city,123456,2242423,book)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -184,16 +262,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TestTodaysDeal')
+data.setCell(0, 1, 'Booksearch')
 data.setCell(0, 2, 'testcases.Testcase1')
-data.setCell(0, 3, 6954);
+data.setCell(0, 3, 2687);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addLowCostGiftCard')
+data.setCell(1, 2, 'testcases.Testcase1')
+data.setCell(1, 3, 842);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestCheckout')
+data.setCell(2, 2, 'testcases.Testcase1')
+data.setCell(2, 3, 80);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestCheckButton')
+data.setCell(3, 2, 'testcases.Testcase1')
+data.setCell(3, 3, 74);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -225,13 +315,9 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TestTodaysDeal</span>
-                <span class="method-start">6241 ms</span>
+                <span class="method-name">Booksearch(Alice, demo@gmail.com, BOB, demo1@gmail.com, Ny city, NY city, 123456, 2242423, book)</span>
+                <span class="method-start">5535 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">13197 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
