@@ -252,7 +252,8 @@ public class Testcase1 extends Base {
                    WebElement searchInput = driver.findElement(By.id("Q"));
                    String inputValue = searchInput.getAttribute("value");
                    Assert.assertTrue(inputValue.contains("book"), "Search input value contains 'book'");
-                   test.pass("Test passed successfully");  
+                   test.pass("Test passed successfully", MediaEntityBuilder.createScreenCaptureFromPath(screenshotHandler.captureScreenshot(driver, "find-razor-turbo"))
+                   .build());  
    
                } catch (Exception ex) {
                   
