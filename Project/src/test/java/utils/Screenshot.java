@@ -21,7 +21,7 @@ public class Screenshot {
         String timestamp = dateFormat.format(new Date());
 
         // Define the screenshots directory path
-        String screenshotsDirectory = System.getProperty("user.dir") + "/src/main/screenshot/";
+        String screenshotsDirectory = System.getProperty("user.dir") + "/src/main/Screenshot/";
 
         // Create the screenshots directory if it doesn't exist
         File directory = new File(screenshotsDirectory);

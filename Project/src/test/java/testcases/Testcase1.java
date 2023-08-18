@@ -121,8 +121,9 @@ public class Testcase1 extends Base {
             driver.findElement(By.xpath("//span[@id='attach-sidesheet-view-cart-button']/span[@class='a-button-inner']/input[@class='a-button-input']")).click();
             CartValue=driver.findElement(By.id("nav-cart-count")).getText();
             Assert.assertEquals(CartValue, "1");
-            test.pass("Test passed successfully");
-            
+            test.pass("Test passed successfully", MediaEntityBuilder.createScreenCaptureFromPath(screenshotHandler.captureScreenshot(driver, "Unable to Add to Cart "))
+            .build());
+
         } catch (Exception ex) {
         ExtentTest test = reporter.createTest("Add to Cart");
         test.log(Status.FAIL, "Unable to Add to Cart ",
