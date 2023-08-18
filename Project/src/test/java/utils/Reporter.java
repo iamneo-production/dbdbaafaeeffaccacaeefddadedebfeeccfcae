@@ -15,14 +15,12 @@ public class Reporter  {
     static Properties prop;
 
     private static ExtentReports extentReport;
-
     public static ExtentReports generateExtentReport() {
         if (extentReport == null) {
             extentReport = createExtentReport();
         }
         return extentReport;
     }
-
     private static ExtentReports createExtentReport() {
         ExtentReports extentReport = new ExtentReports();
         String filepath=System.getProperty("user.dir")+"/src/test/java/resources/browser.properties";
@@ -36,29 +34,13 @@ public class Reporter  {
 			System.out.println(e.getLocalizedMessage());
 		}
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
-
         TimeZone istTimeZone = TimeZone.getTimeZone("Asia/Kolkata"); // IST timezone
-
         dateFormat.setTimeZone(istTimeZone);
-
- 
-
         String timestamp = dateFormat.format(new Date());
-
- 
-
-        // Define the file path with the timestamp
-
         String reportFilePath = System.getProperty("user.dir") + "/src/main/reports/extentReport_" + timestamp + ".html";
-
         File extentReportFile = new File(reportFilePath);
-
- 
-
         ExtentSparkReporter sparkReporter = new ExtentSparkReporter(extentReportFile);
-
         sparkReporter.config().setTheme(Theme.DARK);
-
         sparkReporter.config().setReportName("Demowebshop Test Report");
         sparkReporter.config().setDocumentTitle("Demowebshop Automation Automation Report");
         sparkReporter.config().setTimeStampFormat("dd/MM/yyyy hh:mm:ss");
@@ -70,9 +52,6 @@ public class Reporter  {
         extentReport.setSystemInfo("Operating System", System.getProperty("os.name"));
         extentReport.setSystemInfo("Username", System.getProperty("user.name"));
         extentReport.setSystemInfo("Java Version", System.getProperty("java.version"));
-
- 
-
         return extentReport;
 
     }
