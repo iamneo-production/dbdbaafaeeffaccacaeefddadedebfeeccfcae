@@ -96,7 +96,7 @@ public class Testcase1 extends Base {
     @Test(priority = 3)
     public void AddCartTest() throws InterruptedException, IOException {
         try {
-            ExtentTest test = reporter.createTest("AddCartTest", "Execution for Add to Cart Test");
+            ExtentTest test = reporter.createTest("Add Cart Test", "Execution for Add to Cart Test");
             e = new EventHandler();
             driver.get(prop.getProperty("url") + "/");
             options.addArguments("--remote-allow-origins=*");
