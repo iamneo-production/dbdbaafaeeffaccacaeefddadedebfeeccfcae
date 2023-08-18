@@ -32,6 +32,8 @@ public class Testcase1 extends Base {
     ExtentReports reporter = Reporter.generateExtentReport();
     java.util.logging.Logger log =  LoggerHandler.getLogger();
     Screenshot screenshotHandler = new Screenshot();
+    String relativeScreenshotPath = "src/main/Screenshot/";
+
     ChromeOptions options = new ChromeOptions();
      
 
