@@ -43,7 +43,6 @@
 //         return destinationScreenshotPath;
 //     }
 // }
-
 package utils;
 
 import org.openqa.selenium.OutputType;
@@ -52,6 +51,8 @@ import org.openqa.selenium.WebDriver;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
@@ -73,11 +74,11 @@ public class Screenshot {
         }
 
         File srcScreenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        String destinationScreenshotPath = "Project/" + screenshotsDirectory + screenshotName + "_" + timestamp + ".png";
+        String destinationScreenshotPath = screenshotsDirectory + screenshotName + "_" + timestamp + ".png";
 
         try {
             // Copy the screenshot file using Files.copy
-            java.nio.file.Files.copy(srcScreenshot.toPath(), new File(destinationScreenshotPath).toPath());
+            Files.copy(srcScreenshot.toPath(), new File(destinationScreenshotPath).toPath(), StandardCopyOption.REPLACE_EXISTING);
         } catch (IOException e) {
             e.printStackTrace();
         }
