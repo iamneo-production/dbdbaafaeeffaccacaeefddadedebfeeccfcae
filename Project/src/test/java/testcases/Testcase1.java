@@ -59,7 +59,7 @@ public class Testcase1 extends Base {
         } catch (Exception ex) {
         ExtentTest test = reporter.createTest("Today's Deals");
         test.log(Status.FAIL, "Unable to Today's Deals",
-                MediaEntityBuilder.createScreenCaptureFromPath(screenshotHandler.captureScreenshot(driver, "Today's Deals"))
+                MediaEntityBuilder.relativeScreenshotPath(screenshotHandler.captureScreenshot(driver, "Today's Deals"))
                         .build());
         }
     }
@@ -73,7 +73,7 @@ public class Testcase1 extends Base {
             options.addArguments("--remote-allow-origins=*");
             log.info("Browser launched");
             driver.manage().window().maximize();
-            String CartValue=driver.findElement(By.id("nav-cart-count")).getText();
+            String CartValue=driver.findElement(By.id("nav-cart-count")).getText();x
             driver.findElement(By.linkText("Today's Deals")).click();
             String actualRes=driver.findElement(By.xpath("//h1")).getText();
             Assert.assertEquals(actualRes, "Today's Deals");
@@ -90,7 +90,7 @@ public class Testcase1 extends Base {
         } catch (Exception ex) {
         ExtentTest test = reporter.createTest("Click the second Product in today's deals");
         test.log(Status.FAIL, "Unable Click the second Product in today's deals",
-                MediaEntityBuilder.createScreenCaptureFromPath(screenshotHandler.captureScreenshot(driver, "Click the second Product in today's deals"))
+                MediaEntityBuilder.relativeScreenshotPath(screenshotHandler.captureScreenshot(driver, "Click the second Product in today's deals"))
                         .build());
         }
     }
@@ -129,7 +129,7 @@ public class Testcase1 extends Base {
         } catch (Exception ex) {
         ExtentTest test = reporter.createTest("Add to Cart");
         test.log(Status.FAIL, "Unable to Add to Cart ",
-                MediaEntityBuilder.createScreenCaptureFromPath(screenshotHandler.captureScreenshot(driver, "Unable to Add to Cart "))
+                MediaEntityBuilder.relativeScreenshotPath(screenshotHandler.captureScreenshot(driver, "Unable to Add to Cart "))
                         .build());
         }
     }
